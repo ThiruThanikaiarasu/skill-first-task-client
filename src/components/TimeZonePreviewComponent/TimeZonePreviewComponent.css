@@ -1,0 +1,72 @@
+.preview-container {
+    margin-top: 5em;
+}
+
+.preview-container h2 {
+    text-align: center;
+
+}
+
+.country-container {
+    margin: .5em 0;
+    padding: .5em 1em;
+    display: flex;
+    align-items: center;
+    background-color: rgb(210, 210, 210);
+    border-radius: 5px;
+}
+
+.country-name {
+    font-size: larger;
+    width: 3.5em;
+}
+
+.preview {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date-and-time {
+    display: flex;
+}
+
+.converted-time-container {
+    display: flex;
+    margin: 0 1em;
+}
+
+.converted-time-container p{
+    margin: 0 em;
+}
+
+.converted-time-container span {
+    margin: 0 .5em;
+}
+
+.end-date {
+    margin-left: 1em;
+}
+
+.edit-button {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.edit-button button {
+    padding: .5em 1em;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;  
+}
+
+.edit-button button:disabled {
+    background-color: grey;
+    color: white;  
+    cursor:not-allowed;
+}

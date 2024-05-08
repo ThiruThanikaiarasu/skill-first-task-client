@@ -1,12 +1,15 @@
 import './App.css'
 
 import React from 'react'
+import TimeZoneFormComponent from './components/TimeZoneFormComponent/TimeZoneFormComponent'
+import NavbarComponent from './components/NavbarComponent/NavbarComponent'
 
 const App = () => {
     return (
-        <div style={{textAlign:"center"}}>
-            <h2>It's working ✌️</h2>
-        </div>
+        <React.Fragment>
+            {/* <TimeZoneFormComponent /> */}
+            <NavbarComponent />
+        </React.Fragment>
     )
 }
 
